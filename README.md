@@ -16,3 +16,5 @@ This option lists all of the items in the database.
 ![Bamazon Picture 4](/Images/bam4.png)
 
 This option prompts the user which item they wish to purchase and the amount.
+
+Also attached is the .sql file to create the database.
