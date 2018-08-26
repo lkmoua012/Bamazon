@@ -7,11 +7,11 @@ CREATE TABLE products(
   product_name VARCHAR(100) NOT NULL,
   department_name VARCHAR(45) NOT NULL,
   price INT default 0,
-  stock_quantity INT default 0,
+  stock INT default 0,
   PRIMARY KEY (id)
 );
 
-INSERT INTO products (product_name, department_name, price, stock_quantity)
+INSERT INTO products (product_name, department_name, price, stock)
 VALUES
 ("Code Complete", "Books", 40, 30),
 ("Assorted Socks", "Clothing", 10, 100),
